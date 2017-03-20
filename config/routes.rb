@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  get 'home/index'
 
   devise_for :users, controllers: {
-    sessions: 'users/sessions'
+    sessions: 'users/sessions',
+    registrations: 'users/registrations'
   }
   root to: "home#index"
   # The priority is based upon order of creation: first created -> highest priority.
