@@ -11,10 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170307175727) do
+ActiveRecord::Schema.define(version: 20170320195939) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "profiles", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "firstname",     limit: 15
+    t.string   "middleinitial", limit: 1
+    t.string   "lastname",      limit: 15
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city",          limit: 25
+    t.string   "state",         limit: 2
+    t.string   "zip",           limit: 5
+    t.string   "country",       limit: 35
+    t.string   "homephone",     limit: 10
+    t.string   "cellphone",     limit: 10
+    t.string   "instagram"
+    t.string   "twitter"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
+
+  add_index "profiles", ["user_id"], name: "index_profiles_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -43,4 +64,5 @@ ActiveRecord::Schema.define(version: 20170307175727) do
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   add_index "users", ["unlock_token"], name: "index_users_on_unlock_token", unique: true, using: :btree
 
+  add_foreign_key "profiles", "users"
 end

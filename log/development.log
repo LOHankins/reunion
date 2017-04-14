@@ -1397,3 +1397,733 @@ Processing by Users::RegistrationsController#new as HTML
   Rendered users/registrations/new.html.erb within layouts/application (6.5ms)
   Rendered layouts/_header.html.erb (1.8ms)
 Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:03:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (26.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+  Rendered home/_header.html.erb (6.1ms)
+Completed 200 OK in 859ms (Views: 821.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:03:32 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.6ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-03-30 16:03:35 -0400
+Processing by Users::RegistrationsController#new as HTML
+  [1m[35mUser Load (20.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 299ms (ActiveRecord: 116.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:03:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_header.html.erb (1.7ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-03-30 16:03:46 -0400
+Processing by Users::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:03:46 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (2.2ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:23:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 200ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-03-30 16:23:51 -0400
+Processing by Users::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 23ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:23:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-03-30 16:26:40 -0400
+Processing by Users::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-30 16:26:40 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:07:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (19.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+  Rendered home/_header.html.erb (3.1ms)
+Completed 200 OK in 777ms (Views: 748.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:07:10 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (3.3ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-04-04 14:07:13 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (3.2ms)
+  Rendered users/registrations/new.html.erb within layouts/application (203.2ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+Completed 200 OK in 421ms (Views: 300.5ms | ActiveRecord: 98.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-04-04 14:07:35 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JFXDbQQ7pCZslc7YZvVNuZ+ySqScOdm3BIluOOlts7UryO5YwmCzBeNqdVCmnXYQD4iBt8wxrgwEuWUbnCVopQ==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (31.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'lohankins@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/registrations/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 455ms (Views: 37.6ms | ActiveRecord: 31.3ms)
+  [1m[36m (357.2ms)[0m  [1mDROP DATABASE IF EXISTS "reunion_development"[0m
+  [1m[35m (215.5ms)[0m  DROP DATABASE IF EXISTS "reunion_test"
+  [1m[36m (1681.6ms)[0m  [1mCREATE DATABASE "reunion_development" ENCODING = 'unicode'[0m
+  [1m[35m (638.8ms)[0m  CREATE DATABASE "reunion_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (101.8ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "confirmation_token" character varying, "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying, "failed_attempts" integer DEFAULT 0 NOT NULL, "unlock_token" character varying, "locked_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (42.4ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_confirmation_token" ON "users" USING btree ("confirmation_token")[0m
+  [1m[35m (53.8ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (43.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")[0m
+  [1m[35m (42.8ms)[0m  CREATE UNIQUE INDEX  "index_users_on_unlock_token" ON "users" USING btree ("unlock_token")
+  [1m[36m (42.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (42.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (9.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20170307175727')
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (98.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "confirmation_token" character varying, "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying, "failed_attempts" integer DEFAULT 0 NOT NULL, "unlock_token" character varying, "locked_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (53.6ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_confirmation_token" ON "users" USING btree ("confirmation_token")[0m
+  [1m[35m (65.4ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (54.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")[0m
+  [1m[35m (65.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_unlock_token" ON "users" USING btree ("unlock_token")
+  [1m[36m (55.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (65.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (9.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20170307175727')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:09:21 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/louis/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/louis/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/louis/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.5ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/louis/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (48.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProfiles (20170320195939)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (95.5ms)[0m  [1mCREATE TABLE "profiles" ("id" serial primary key, "user_id" integer, "firstname" character varying(15), "middleinitial" character varying(1), "lastname" character varying(15), "address1" character varying, "address2" character varying, "city" character varying(25), "state" character varying(2), "zip" character varying(5), "country" character varying(35), "homephone" character varying(10), "cellphone" character varying(10), "instagram" character varying, "twitter" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (31.9ms)[0m  CREATE  INDEX  "index_profiles_on_user_id" ON "profiles"  ("user_id")
+  [1m[36m (1.5ms)[0m  [1mALTER TABLE "profiles" ADD CONSTRAINT "fk_rails_e424190865"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170320195939"]]
+  [1m[36m (14.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'profiles'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:11:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+  Rendered home/_header.html.erb (2.1ms)
+Completed 200 OK in 257ms (Views: 247.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-04-04 14:11:45 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (1.1ms)
+  Rendered users/registrations/new.html.erb within layouts/application (26.4ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+Completed 200 OK in 91ms (Views: 73.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-04-04 14:12:00 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gxI8z9d21LlNZv/2Toevjo9Tv2YXj9jEuKmgXbvg6f+MjxH6ES3DmsKZRH6O75QnH2l0dUeHr3+4mat+zqgy7w==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'lohankins@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["email", "lohankins@gmail.com"], ["encrypted_password", "$2a$11$JEY/5ccKuUdinCgsapFVS.3Z93uM3eW5fPL4GAwtKio7eTk/SSAhO"], ["created_at", "2017-04-04 18:12:00.774315"], ["updated_at", "2017-04-04 18:12:00.774315"]]
+  [1m[36m (9.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2017-04-04 18:12:00.787344"], ["current_sign_in_at", "2017-04-04 18:12:00.787344"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-04-04 18:12:00.788200"], ["id", 1]]
+  [1m[35m (28.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/edit.1
+Completed 302 Found in 240ms (ActiveRecord: 39.7ms)
+
+
+Started GET "/users/edit.1" for 127.0.0.1 at 2017-04-04 14:12:00 -0400
+Processing by Users::RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered users/registrations/edit.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+Completed 200 OK in 137ms (Views: 133.7ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/users" for 127.0.0.1 at 2017-04-04 14:12:40 -0400
+Processing by Users::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/OHaXWwg43DBBtUNROzbP8yjcHYBUOoDa+VtmFzzUBzzfPdoqnv0U075boWEhOCWXJm7ZVFYnbhr1Wa7KbuLDA==", "user"=>{"email"=>"lohankins@amail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'lohankins@amail.com' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "email" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["email", "lohankins@amail.com"], ["updated_at", "2017-04-04 18:12:40.648149"], ["id", 1]]
+  [1m[36m (17.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 199ms (ActiveRecord: 18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:12:40 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.5ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-04 14:13:05 -0400
+Processing by Users::SessionsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:13:06 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.7ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProfile Load (0.5ms)[0m  SELECT "profiles".* FROM "profiles"
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:34:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (2.0ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-04 14:34:23 -0400
+Processing by Users::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:34:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (2.0ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-04 14:46:51 -0400
+Processing by Users::SessionsController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:46:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.7ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-04 14:57:31 -0400
+Processing by Users::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 19ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 14:57:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (5.0ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 15:11:19 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.7ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-04 15:12:11 -0400
+Processing by Users::SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 15:12:11 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (2.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 15:12:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (1.6ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-04 15:13:15 -0400
+Processing by Users::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 15:13:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.6ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 15:39:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_header.html.erb (3.4ms)
+Completed 200 OK in 28ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-13 14:43:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (26.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered home/_header.html.erb (5.7ms)
+Completed 200 OK in 847ms (Views: 823.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-13 14:43:33 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-04-13 14:43:40 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (4.6ms)
+  Rendered users/registrations/new.html.erb within layouts/application (322.3ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+Completed 200 OK in 742ms (Views: 424.9ms | ActiveRecord: 266.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-04-13 14:44:00 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rQyFxcKegLQd0sxygeoBYcsNv248v2SPtqSfaIs1MTC/ad3FA3TedSM0yEXryqBWklTKWLVCDC+tWAy2oaHDOA==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (23.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'lohankins@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (33.6ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["email", "lohankins@gmail.com"], ["encrypted_password", "$2a$11$D9mT699rwpARNTMbqFC58O1BZt5f/scaY1pj3PY53sgqnQLFgLhcO"], ["created_at", "2017-04-13 18:44:00.522502"], ["updated_at", "2017-04-13 18:44:00.522502"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2017-04-13 18:44:00.572797"], ["current_sign_in_at", "2017-04-13 18:44:00.572797"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-04-13 18:44:00.575237"], ["id", 2]]
+  [1m[35m (11.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/edit.2
+Completed 302 Found in 584ms (ActiveRecord: 80.5ms)
+
+
+Started GET "/users/edit.2" for 127.0.0.1 at 2017-04-13 14:44:00 -0400
+Processing by Users::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered users/registrations/edit.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+Completed 200 OK in 173ms (Views: 170.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users" for 127.0.0.1 at 2017-04-13 14:44:15 -0400
+Processing by Users::RegistrationsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Nc0FL/B9QFwmov7QywdRS8BJlgn0kcTUi3+x2ZuEAxYnqF0vMZcenRhE+uehJ/B8mRDjP31srHSQgyIHsRDxHg=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mProfile Load (22.5ms)[0m  SELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT 1  [["user_id", 2]]
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[35m (9.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 135ms (ActiveRecord: 33.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-13 14:44:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_header.html.erb (1.9ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 14:45:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (35.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+  Rendered home/_header.html.erb (2.5ms)
+Completed 200 OK in 907ms (Views: 879.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 14:45:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (2.2ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-14 14:45:31 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (2.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (207.9ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+Completed 200 OK in 446ms (Views: 275.2ms | ActiveRecord: 121.8ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-04-14 14:45:34 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SNrMoZ9TrZGMBzDl9JZ/xWP0ovotSeodNRcZIDXeBasknqCQEp30fJINLs7YpDdyuAMccswQuHbW7Ogyoe4LJQ==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (35.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "lohankins@gmail.com"]]
+Completed 401 Unauthorized in 153ms (ActiveRecord: 35.7ms)
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SNrMoZ9TrZGMBzDl9JZ/xWP0ovotSeodNRcZIDXeBasknqCQEp30fJINLs7YpDdyuAMccswQuHbW7Ogyoe4LJQ==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 200 OK in 287ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-04-14 14:46:03 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.7ms)
+  Rendered users/registrations/new.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-04-14 14:46:32 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AG5T0UzPdMpUmWKUmweUupjo7Vi064quF2uwv4mMftdsKj/gwQEtJ0qTfL+3NdwNQx9T0FWy2MX0kEGtHbxwWQ==", "user"=>{"email"=>"murrayparker@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'murrayparker@gmail.com' LIMIT 1
+  [1m[36mSQL (45.8ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "murrayparker@gmail.com"], ["encrypted_password", "$2a$11$.rFyfjMoFBk0YwO0m10TX.P.KZahH/865GJ0Om65YAnhrjD3lKpAm"], ["created_at", "2017-04-14 18:46:32.627796"], ["updated_at", "2017-04-14 18:46:32.627796"]]
+  [1m[35m (11.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2017-04-14 18:46:32.690703"], ["current_sign_in_at", "2017-04-14 18:46:32.690703"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-04-14 18:46:32.692861"], ["id", 3]]
+  [1m[36m (12.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/edit.3
+Completed 302 Found in 375ms (ActiveRecord: 71.7ms)
+
+
+Started GET "/users/edit.3" for 127.0.0.1 at 2017-04-14 14:46:32 -0400
+Processing by Users::RegistrationsController#edit as 
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered users/registrations/edit.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 200 OK in 127ms (Views: 122.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-04-14 14:48:18 -0400
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"G87VtB8hH6C3rktAZB5KwkNeKlEVqHNLwtVbcYQRKc53irmFku9GTamkVWtILAJ1mKmU2fTxISAhLqpjECEnQA=="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 35ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 14:48:19 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_header.html.erb (1.5ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-14 14:48:22 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-04-14 14:48:43 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2rydl+quc5Ia2W4ibgSIYmd+PtovAfnxNxjQJqdPkq7TaX/9lV1b/Jhrq2CKRhpaBuwwOoxSmBf+yyh1AvOanA==", "user"=>{"email"=>"murrayparker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "murrayparker@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["current_sign_in_at", "2017-04-14 18:48:43.851961"], ["sign_in_count", 2], ["updated_at", "2017-04-14 18:48:43.852919"], ["id", 3]]
+  [1m[36m (18.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 171ms (ActiveRecord: 19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 14:48:43 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.5ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (386.5ms)[0m  [1mDROP DATABASE IF EXISTS "reunion_development"[0m
+  [1m[35m (322.8ms)[0m  DROP DATABASE IF EXISTS "reunion_test"
+  [1m[36m (2020.4ms)[0m  [1mCREATE DATABASE "reunion_development" ENCODING = 'unicode'[0m
+  [1m[35m (769.9ms)[0m  CREATE DATABASE "reunion_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (122.7ms)[0m  CREATE TABLE "profiles" ("id" serial primary key, "user_id" integer, "firstname" character varying(15), "middleinitial" character varying(1), "lastname" character varying(15), "address1" character varying, "address2" character varying, "city" character varying(25), "state" character varying(2), "zip" character varying(5), "country" character varying(35), "homephone" character varying(10), "cellphone" character varying(10), "instagram" character varying, "twitter" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (50.9ms)[0m  [1mCREATE  INDEX  "index_profiles_on_user_id" ON "profiles" USING btree ("user_id")[0m
+  [1m[35m (155.5ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "confirmation_token" character varying, "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying, "failed_attempts" integer DEFAULT 0 NOT NULL, "unlock_token" character varying, "locked_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (51.3ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_confirmation_token" ON "users" USING btree ("confirmation_token")[0m
+  [1m[35m (40.2ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (51.6ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")[0m
+  [1m[35m (51.3ms)[0m  CREATE UNIQUE INDEX  "index_users_on_unlock_token" ON "users" USING btree ("unlock_token")
+  [1m[36m (9.9ms)[0m  [1mALTER TABLE "profiles" ADD CONSTRAINT "fk_rails_e424190865"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (70.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (40.8ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.7ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (6.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20170320195939')[0m
+  [1m[35m (10.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20170307175727')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (107.9ms)[0m  CREATE TABLE "profiles" ("id" serial primary key, "user_id" integer, "firstname" character varying(15), "middleinitial" character varying(1), "lastname" character varying(15), "address1" character varying, "address2" character varying, "city" character varying(25), "state" character varying(2), "zip" character varying(5), "country" character varying(35), "homephone" character varying(10), "cellphone" character varying(10), "instagram" character varying, "twitter" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (62.1ms)[0m  [1mCREATE  INDEX  "index_profiles_on_user_id" ON "profiles" USING btree ("user_id")[0m
+  [1m[35m (173.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "confirmation_token" character varying, "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying, "failed_attempts" integer DEFAULT 0 NOT NULL, "unlock_token" character varying, "locked_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (74.8ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_confirmation_token" ON "users" USING btree ("confirmation_token")[0m
+  [1m[35m (118.4ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (106.3ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")[0m
+  [1m[35m (52.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_unlock_token" ON "users" USING btree ("unlock_token")
+  [1m[36m (10.3ms)[0m  [1mALTER TABLE "profiles" ADD CONSTRAINT "fk_rails_e424190865"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (75.3ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (51.8ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.6ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (5.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20170320195939')[0m
+  [1m[35m (10.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20170307175727')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 15:04:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered home/_header.html.erb (1.5ms)
+Completed 200 OK in 197ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-04-14 15:05:07 -0400
+Processing by Users::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered users/shared/_links.html.erb (0.8ms)
+  Rendered users/registrations/new.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+Completed 200 OK in 79ms (Views: 54.7ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-04-14 15:05:24 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+dORLERU0Nno8WWPY1b0oKBtOD/TSoXsDCyxrVLLVVSlu1YXtcm5xBLUCH1NY+D6/ldmLkHKM0kIXVit3l/S8g==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'lohankins@gmail.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "lohankins@gmail.com"], ["encrypted_password", "$2a$11$BoUo/.jd9iRUxpg5dW9PR.XVPKlzu6e97VcztxIpQUFFmFadqBqve"], ["created_at", "2017-04-14 19:05:24.733249"], ["updated_at", "2017-04-14 19:05:24.733249"]]
+  [1m[35m (15.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2017-04-14 19:05:24.751645"], ["current_sign_in_at", "2017-04-14 19:05:24.751645"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-04-14 19:05:24.752644"], ["id", 1]]
+  [1m[36m (6.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/edit.1
+Completed 302 Found in 183ms (ActiveRecord: 23.4ms)
+
+
+Started GET "/users/edit.1" for 127.0.0.1 at 2017-04-14 15:05:24 -0400
+Processing by Users::RegistrationsController#edit as 
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered users/registrations/edit.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 116ms (Views: 111.2ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-04-14 15:06:01 -0400
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TcJK46vtZL/dr7MkgPwRUA48ZBtQsubIQiVLiRNnveERqo3YWnANoieK3tauyQUKUAY6CsIyUG1GVKKJn/M6Rw=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 15:06:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-04-14 15:06:03 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-04-14 15:06:07 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GmhqX0LhBzj8exLoluSqL8oFDxmPz/Z/S8D8RU7RT/NHFCjtvTxPZfQCqvXl0EbRk6mtnRAwZoCY6yjJWfbuKA==", "user"=>{"email"=>"LOHankins@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "lohankins@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["current_sign_in_at", "2017-04-14 19:06:07.378401"], ["sign_in_count", 2], ["updated_at", "2017-04-14 19:06:07.379355"], ["id", 1]]
+  [1m[36m (17.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/edit.1
+Completed 302 Found in 161ms (ActiveRecord: 18.1ms)
+
+
+Started GET "/users/edit.1" for 127.0.0.1 at 2017-04-14 15:06:07 -0400
+Processing by Users::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered users/registrations/edit.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-04-14 15:06:27 -0400
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WllBJRHVufuA9zolZvxifQo+QW0mTBv5QmPW/pj1bJbGWJ9LoE7/SLEF8kjp3O55Mvicy5ewIN7z6cLsEk23Bg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-14 15:06:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.6ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
