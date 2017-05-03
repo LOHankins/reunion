@@ -21,6 +21,12 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
+    <div id="profile">
+      <%= f.fields_for :profile do |rf| %>
+        <%= render :partial => "profiles/profilefields", :locals => { :f => rf } %>
+      <% end %>
+    </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
